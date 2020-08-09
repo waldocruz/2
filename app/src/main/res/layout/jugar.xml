@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#270D0D"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <ProgressBar
+        android:id="@+id/tiempo"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:progressDrawable="@drawable/progress" />
+
+    <TextView
+        android:id="@+id/palabra"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:background="@drawable/fondo_texview"
+        android:textColor="#ffff"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/contenedor1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contenedor2"
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contenedor3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/jugador2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/siguiente"
+        android:gravity="center"
+        android:onClick="siguientePalabra2" />
+
+</LinearLayout>
